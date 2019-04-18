@@ -3,8 +3,13 @@
     height: auto;
 }
 
+.navbar-brand {
+    max-width: 40%;
+}
+
 .navbar img {
-    width: 40%;
+    width: 100%;
+    height: auto;
 }
 
 .navbar-nav {
