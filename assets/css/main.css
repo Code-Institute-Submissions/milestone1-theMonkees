@@ -1,7 +1,19 @@
-.image-landing-page {
-    width: 100%;
-    height: auto;
+/*------------------------------ colours*/
+.bg-standard-blue {
+    background-color: #c8e3ee;
 }
+
+/*------------------------------ Miscellanious*/
+
+
+
+.standardDivider {
+    border-top: 3px solid #80bdff ;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/*------------------------------ navbar*/
 
 .navbar-brand {
     max-width: 40%;
@@ -16,3 +28,30 @@
     font-size: 20px;
 }
 
+/*------------------------------ landing page*/
+
+
+.welcomeSection {
+    background: url("../images/monkeeswide.jpg");
+    background-position: 75% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    padding: 20px;
+}
+
+/*.welcomeText {*/
+/*    color: #fafafa;*/
+/*    font-size: 5vw;*/
+/*    position: relative;*/
+/*    top: 40vh;*/
+/*    left: 40vw;*/
+/*}*/
+
+/*------------------------------ picturesection landing page*/
+
+.alignPicture {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
