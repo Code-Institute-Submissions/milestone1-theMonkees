@@ -40,6 +40,14 @@
     padding: 20px;
 }
 
+.landingPageButton {
+    margin-top:2vh;
+}
+
+.landingpageVideo {
+    width: 80%;
+}
+
 /*.welcomeText {*/
 /*    color: #fafafa;*/
 /*    font-size: 5vw;*/
