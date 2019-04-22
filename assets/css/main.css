@@ -9,8 +9,9 @@
 
 .standardDivider {
     border-top: 3px solid #80bdff ;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 5vh 5vw 5vh 5vw;
+
+    
 }
 
 /*------------------------------ navbar*/
@@ -37,7 +38,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
-    padding: 20px;
 }
 
 .landingPageButton {
@@ -46,6 +46,7 @@
 
 .landingpageVideo {
     width: 80%;
+    height: 100%;
 }
 
 /*.welcomeText {*/
@@ -56,10 +57,9 @@
 /*    left: 40vw;*/
 /*}*/
 
-/*------------------------------ picturesection landing page*/
-
 .alignPicture {
     width: 100%;
     height: auto;
     padding: 5px;
 }
+
