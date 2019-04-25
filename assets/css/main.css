@@ -49,7 +49,7 @@
 .welcomeText {
     font-family: 'Galada', cursive, sans-serif;
     color: #fafafa;
-    font-size: 5vw;
+    font-size: 7vw;
 }
 
 .landingPageButton {
@@ -61,19 +61,34 @@
     height: 100%;
 }
 
-
-
 .alignPicture {
     width: 100%;
     height: auto;
     padding: 5px;
 }
 
+/*------------------------------ Footer*/
+footer {
+    background-color: #dfa87f;
+    margin-top: 3vh;
+    height: 15vh;
+}
+
+footer .row {
+    height: 100%;
+}    
+
+.footerText {
+    color: #fafafa;
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
+}    
+
 /*------------------------------ media queries*/
 /*Using bootstrap breakpoints (576, 768, 992, 1200)*/
 @media (min-width: 576px) {  
     .navbar-brand {
-        max-width: 35%;
+        max-width: 30%;
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 2rem;
@@ -86,7 +101,11 @@
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 2rem;
-    }
+    }        
+    .welcomeText {
+    font-size: 5vw;
+}
+
 }
  
 @media (min-width: 992px) { 
