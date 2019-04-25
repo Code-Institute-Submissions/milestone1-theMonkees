@@ -12,6 +12,7 @@
 /*------------------------------ navbar*/
 .navbar-brand {
     max-width: 40%;
+    margin-right: 10vw;
 }
 
 .navbar img {
@@ -21,9 +22,16 @@
 
 .navbar-nav {
     font-size: 1.2rem;
-    color:#e80815; /*same color as logo*/
-    
 }
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-right: 3vw;
+    color:#e80815; /*same color as logo*/
+}
+
 
 /*------------------------------ landing page*/
 .welcomeSection {
@@ -63,7 +71,7 @@
     .navbar-brand {
         max-width: 35%;
     }
-    .navbar-nav {
+    .navbar-light .navbar-nav .nav-link {
         font-size: 2rem;
     }
 }
@@ -72,7 +80,7 @@
     .navbar-brand {
         max-width: 25%;
     }
-    .navbar-nav {
+    .navbar-light .navbar-nav .nav-link {
         font-size: 2rem;
     }
 }
@@ -81,7 +89,7 @@
     .navbar-brand {
         max-width: 25%;
     }    
-    .navbar-nav {
+    .navbar-light .navbar-nav .nav-link {
         font-size: 2.5rem;
     }
 }
@@ -90,7 +98,7 @@
     .navbar-brand {
         max-width: 20%;
     }
-    .navbar-nav {
+    .navbar-light .navbar-nav .nav-link {
         font-size: 3rem;
     }
 }
