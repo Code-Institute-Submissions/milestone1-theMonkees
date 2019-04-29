@@ -15,7 +15,7 @@ With the new setup in mind I wanted to have the bright colors as I had them befo
 
 
 
-
+All images, videos and sound files were provided by the Code Institute.
 
 
 

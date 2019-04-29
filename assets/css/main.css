@@ -82,7 +82,21 @@ footer .row {
     color: #fafafa;
     font-size: 2vh;
     font-family: 'Poppins', sans-serif;
-}    
+}
+
+.socialIcons a i {
+    color: #fafafa;
+    font-size: 5vh;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+    margin: 1vw;
+}
+
+.socialIcons a i:hover {
+    color: #e80815;
+}
 
 /*------------------------------ media queries*/
 /*Using bootstrap breakpoints (576, 768, 992, 1200)*/
