@@ -54,6 +54,8 @@
 
 .landingPageButton {
     margin-top:2vh;
+    background-color: #a6c099;
+    border-color: transparent;
 }
 
 .landingpageVideo {
@@ -71,7 +73,7 @@
 footer {
     background-color: #dfa87f;
     margin-top: 3vh;
-    height: 15vh;
+    height: 10vh;
 }
 
 footer .row {
@@ -82,6 +84,10 @@ footer .row {
     color: #fafafa;
     font-size: 2vh;
     font-family: 'Poppins', sans-serif;
+}
+
+.socialIcons {
+    text-align: center;
 }
 
 .socialIcons a i {
