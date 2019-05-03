@@ -33,6 +33,10 @@
     color:#e80815; /*same color as logo*/
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #a6c099; /*reusing button color -> green*/
+}
+
 /*------------------------------ landing page - general*/
 .landingPageButton {
     margin-top:4vh;
