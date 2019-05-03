@@ -33,7 +33,15 @@
     color:#e80815; /*same color as logo*/
 }
 
-/*------------------------------ landing page*/
+/*------------------------------ landing page - general*/
+.landingPageButton {
+    margin-top:4vh;
+    background-color: #a6c099;
+    border-color: transparent;
+    font-size: 4vw;
+}
+
+/*------------------------------ landing page - Main image and lyrics*/
 .welcomeSection {
     background: url("../images/monkeeswide.jpg");
     background-position: 75% 15%;
@@ -49,16 +57,11 @@
     text-align: right;
 }
 
-.landingPageButton {
-    margin-top:2vh;
-    background-color: #a6c099;
-    border-color: transparent;
-}
-
+/*------------------------------ landing page - member images and names*/
 .imageSectionHeader {
     font-family: 'Poppins', sans-serif;
     color: #cd9771;
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: bold;
     text-align: center;
 }
@@ -72,11 +75,14 @@
 .memberNames {
     font-family: 'Poppins', sans-serif;
     color: #cd9771;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: bold;
     text-align: center;   
 }
 
+
+
+/*------------------------------ landing page - video*/
 .landingpageVideo {
     width: 80%;
     height: 100%;
@@ -136,9 +142,14 @@ footer .row {
         font-size: 2rem;
     }        
     .welcomeText {
-    font-size: 5vw;
-}
-
+        font-size: 5vw;
+    }
+    .imageSectionHeader {
+        font-size: 4vw;
+    }
+    .memberNames {
+        font-size: 3vw;
+    }
 }
  
 @media (min-width: 992px) { 
@@ -148,6 +159,9 @@ footer .row {
     .navbar-light .navbar-nav .nav-link {
         font-size: 2.5rem;
     }
+    .landingPageButton {
+        font-size: 2.5vw;
+    }
     .welcomeSection {
         width: 80%;
         margin: auto;
@@ -155,6 +169,12 @@ footer .row {
     .imageSectionRow {
         width: 80%;
         margin: auto;
+    }
+    .imageSectionHeader {
+        font-size: 4vw;
+    }
+    .memberNames {
+        font-size: 3vw;
     }
 }
  
@@ -165,12 +185,21 @@ footer .row {
     .navbar-light .navbar-nav .nav-link {
         font-size: 3rem;
     }
+    .landingPageButton {
+        font-size: 2.5vw;
+    }
     .welcomeSection {
         width: 80%;
         margin: auto;
     }    
     .imageSectionRow {
         width: 80%;
+    }
+    .imageSectionHeader {
+        font-size: 4vw;
+    }
+    .memberNames {
+        font-size: 3vw;
     }
 }
 
