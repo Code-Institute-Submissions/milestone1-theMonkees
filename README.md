@@ -15,7 +15,7 @@ With the new setup in mind I wanted to have the bright colors as I had them befo
 
 For the nav menu I used the colour of the logo that has been added as the brand. This ensured that the navbar really stood out.
 
-
+On wide viewports, added margin left and right. Having the picture stretch the view-width completely was overwhelming.
 
 
 
