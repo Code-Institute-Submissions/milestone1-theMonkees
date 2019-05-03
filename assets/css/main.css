@@ -121,6 +121,7 @@
     color: #d6c5c6;
     display: block;
     margin:2vh auto 2vh auto;
+    text-align: center;
 }
 
 
@@ -187,6 +188,12 @@ footer .row {
     .memberNames {
         font-size: 3vw;
     }
+    .moreInfoButton {
+        visibility: hidden;
+    }
+    #toggleText01,#toggleText02,#toggleText03,#toggleText04 {
+        display: block;
+    }
 }
  
 @media (min-width: 992px) { 
@@ -213,6 +220,12 @@ footer .row {
     .memberNames {
         font-size: 3vw;
     }
+    .moreInfoButton {
+        visibility: hidden;
+    }
+    #toggleText01,#toggleText02,#toggleText03,#toggleText04 {
+        display: block;
+    }
 }
  
 @media (min-width: 1200px) {  
@@ -237,6 +250,12 @@ footer .row {
     }
     .memberNames {
         font-size: 3vw;
+    }
+    .moreInfoButton {
+        visibility: hidden;
+    }
+    #toggleText01,#toggleText02,#toggleText03,#toggleText04 {
+        display: block;
     }
 }
 
