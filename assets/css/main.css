@@ -11,10 +11,18 @@
     color: #cd9771;
 }
 
-/*------------------------------ Miscellanious*/
+/*------------------------------ general classes for multiple pages*/
 .standardDivider {
     border-top: 3px solid #80bdff ;
     margin: 5vh 10vw 5vh 10vw;
+}
+
+.standardSectionHeader {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2vh;
 }
 
 /*------------------------------ navbar*/
@@ -65,13 +73,6 @@
 }
 
 /*------------------------------ landing page - member images and names*/
-.imageSectionHeader {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
 .alignPicture {
     width: 100%;
     height: auto;
