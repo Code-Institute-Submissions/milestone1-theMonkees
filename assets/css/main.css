@@ -1,10 +1,23 @@
-/*------------------------------ colours*/
+/*------------------------------ colors*/
 .bg-standard-blue {
     background-color: #c8e3ee;
 }
 
+/*alternate slightly darker blue*/
+.bg-alt-blue {
+    background-color: #b8d2ef;
+}
+
+.bg-standard-yellow {
+    background-color: #edda95;
+}
+
 .header-color {
     color: #cd9771;
+}
+
+.paragraph-font-color {
+    color: #521a1a;
 }
 
 /*------------------------------ general classes for multiple pages*/
@@ -19,7 +32,14 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 2vh;
-    /*padding-top: 4vh;*/
+    padding-top: 2vh;
+}
+
+.paragraph-font-style {
+    color: #521a1a;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;    
 }
 
 /*------------------------------ navbar*/
@@ -49,6 +69,7 @@
 /*------------------------------ landing page - general*/
 .landingPageButton {
     margin-top:4vh;
+    margin-bottom:4vh;
     background-color: #a6c099;
     border-color: transparent;
 }
@@ -104,10 +125,10 @@
 }
 
 .descBandmember {
-    color: #521a1a;
-    font-weight: bold;
-    font-size: 1.2rem;
-    display: block;
+    /*color: #521a1a;*/
+    /*font-weight: bold;*/
+    /*font-size: 1.2rem;*/
+    /*display: block;*/
     margin:4vh auto 4vh auto;
     text-align: center;
 }
@@ -115,7 +136,7 @@
 /*------------------------------ Footer*/
 footer {
     background-color: #dfa87f;
-    margin-top: 3vh;
+    /*margin-top: 3vh;*/
     height: 10vh;
 }
 
@@ -144,9 +165,6 @@ footer .row {
 /*------------------------------ Media page*/
 /*------------------------------ Carousel section*/
 .carouselSection {
-    /*width:80%;*/
-    /*margin:auto;*/
-    background-color: #b8d2ef;
     padding-top: 2vh;
 }
 
@@ -160,11 +178,24 @@ footer .row {
     width: 60%;
     height: auto;
 }
-/*------------------------------ audio section*/
+/*------------------------------ Audio section*/
 .mp3Player {
     margin-top: 2vh;
     margin-bottom: 4vh;
     width: 70%;
+}
+
+/*------------------------------ Hire us page*/
+.center-form {
+    width: 90%;
+    margin: auto;
+}
+
+.formSubmitButton {
+    background-color: #a6c099;
+    border-color: transparent;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 /*------------------------------ media queries*/
@@ -207,6 +238,10 @@ footer .row {
     }
     .imageSectionRow {
         width: 80%;
+        margin: auto;
+    }
+    .center-form {
+        width: 60%;
         margin: auto;
     }
 }
