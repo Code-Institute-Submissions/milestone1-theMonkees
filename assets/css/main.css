@@ -145,8 +145,9 @@ footer .row {
 
 /*------------------------------ Media page*/
 /*------------------------------ Carousel*/
-.carouselContainer {
-    width: 80%;
+.carousel {
+    max-width: 50%;
+    max-height: 50%;
     margin: auto;
 }
 
