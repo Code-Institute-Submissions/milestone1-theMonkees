@@ -29,10 +29,6 @@
     height: auto;
 }
 
-.navbar-nav {
-    font-size: 1.2rem;
-}
-
 .navbar-light .navbar-nav .nav-link {
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
@@ -71,8 +67,7 @@
 /*------------------------------ landing page - member images and names*/
 .imageSectionHeader {
     font-family: 'Poppins', sans-serif;
-    /*color: #cd9771;*/
-    font-size: 6vw;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
@@ -85,17 +80,9 @@
 
 .memberNames {
     font-family: 'Poppins', sans-serif;
-    /*color: #cd9771;*/
-    font-size: 5vw;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center;   
-}
-
-.moreInfoButton {
-    margin-top:4vh;
-    background-color: #a6c099;
-    border-color: transparent;
-    font-size: 4vw;
 }
 
 /*------------------------------ landing page - video*/
@@ -123,7 +110,7 @@
     font-weight: bold;
     font-size: 1.2rem;
     display: block;
-    margin:2vh auto 2vh auto;
+    margin:4vh auto 4vh auto;
     text-align: center;
 }
 
@@ -178,10 +165,10 @@ footer .row {
         max-width: 25%;
     }
     .imageSectionHeader {
-        font-size: 4vw;
+        font-size: 3.5rem;
     }
     .memberNames {
-        font-size: 3vw;
+        font-size: 2.5rem;
     }
     .moreInfoButton {
         visibility: hidden;
