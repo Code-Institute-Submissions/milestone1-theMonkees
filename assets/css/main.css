@@ -111,11 +111,13 @@
 
 /*------------------------------ About page*/
 .pictureBandmember {
-    border-radius: 30%;
-    display: block;
+    max-width: 100%;
+    height: auto;
+    /*border-radius: 30%;*/
+    /*display: block;*/
     margin: 7vh auto 2vh auto;
-    min-width: 25vw;
-    min-height: 30vh;
+    /*min-width: 25vw;*/
+    /*min-height: 30vh;*/
 }
 
 .moreInfoButton {
@@ -129,7 +131,7 @@
 .descBandmember {
     color: #521a1a;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 1.2rem;
     display: block;
     margin:2vh auto 2vh auto;
     text-align: center;
