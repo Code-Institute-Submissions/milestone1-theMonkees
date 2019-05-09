@@ -3,10 +3,6 @@
     background-color: #c8e3ee;
 }
 
-.bg-standard-darkblue {
-    background-color: #80a2bd;
-}
-
 .bg-standard-yellow {
     background-color: #efdc97;
 }
@@ -54,7 +50,6 @@
     margin-top:4vh;
     background-color: #a6c099;
     border-color: transparent;
-    font-size: 4vw;
 }
 
 /*------------------------------ landing page - Main image and lyrics*/
@@ -69,7 +64,7 @@
 .welcomeText {
     font-family: 'Galada', cursive, sans-serif;
     color: #fafafa;
-    font-size: 7vw;
+    font-size: 2rem;
     text-align: right;
 }
 
@@ -113,11 +108,7 @@
 .pictureBandmember {
     max-width: 100%;
     height: auto;
-    /*border-radius: 30%;*/
-    /*display: block;*/
     margin: 7vh auto 2vh auto;
-    /*min-width: 25vw;*/
-    /*min-height: 30vh;*/
 }
 
 .moreInfoButton {
@@ -125,7 +116,6 @@
     margin-bottom: 4vh;
     background-color: #a6c099;
     border-color: transparent;
-    /*font-size: 4vw;*/
 }
 
 .descBandmember {
@@ -187,9 +177,6 @@ footer .row {
     .navbar-brand {
         max-width: 25%;
     }
-    .welcomeText {
-        font-size: 5vw;
-    }
     .imageSectionHeader {
         font-size: 4vw;
     }
@@ -208,9 +195,6 @@ footer .row {
 @media (min-width: 992px) { 
     .navbar-light .navbar-nav .nav-link {
         font-size: 2.5rem;
-    }
-    .landingPageButton {
-        font-size: 2.5vw;
     }
     .welcomeSection {
         width: 80%;
