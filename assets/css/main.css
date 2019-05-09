@@ -187,9 +187,6 @@ footer .row {
     .navbar-brand {
         max-width: 25%;
     }
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 2rem;
-    }        
     .welcomeText {
         font-size: 5vw;
     }
@@ -201,6 +198,7 @@ footer .row {
     }
     .moreInfoButton {
         visibility: hidden;
+        font-size: 0rem;
     }
     #toggleText01,#toggleText02,#toggleText03,#toggleText04 {
         display: block;
@@ -208,9 +206,6 @@ footer .row {
 }
  
 @media (min-width: 992px) { 
-    .navbar-brand {
-        max-width: 25%;
-    }    
     .navbar-light .navbar-nav .nav-link {
         font-size: 2.5rem;
     }
@@ -225,18 +220,6 @@ footer .row {
         width: 80%;
         margin: auto;
     }
-    .imageSectionHeader {
-        font-size: 4vw;
-    }
-    .memberNames {
-        font-size: 3vw;
-    }
-    .moreInfoButton {
-        visibility: hidden;
-    }
-    #toggleText01,#toggleText02,#toggleText03,#toggleText04 {
-        display: block;
-    }
 }
  
 @media (min-width: 1200px) {  
@@ -245,28 +228,6 @@ footer .row {
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 3rem;
-    }
-    .landingPageButton {
-        font-size: 2.5vw;
-    }
-    .welcomeSection {
-        width: 80%;
-        margin: auto;
-    }    
-    .imageSectionRow {
-        width: 80%;
-    }
-    .imageSectionHeader {
-        font-size: 4vw;
-    }
-    .memberNames {
-        font-size: 3vw;
-    }
-    .moreInfoButton {
-        visibility: hidden;
-    }
-    #toggleText01,#toggleText02,#toggleText03,#toggleText04 {
-        display: block;
     }
 }
 
