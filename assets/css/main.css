@@ -144,17 +144,20 @@ footer .row {
 }
 
 /*------------------------------ Media page*/
-/*------------------------------ Carousel*/
+/*------------------------------ Carousel section*/
 .carousel {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 70%;
     margin: auto;
 }
 
-
-
-
-
+.audioImage {
+    width: 60%;
+    height: auto;
+}
+/*------------------------------ audio section*/
+.mp3Player {
+    margin-top: 2vh;
+}
 
 /*------------------------------ media queries*/
 /*Using bootstrap breakpoints (576, 768, 992, 1200)*/
@@ -207,5 +210,16 @@ footer .row {
     .navbar-light .navbar-nav .nav-link {
         font-size: 3rem;
     }
+    .sectionAboutPage {
+        width:80%;
+        margin:auto;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+   .carousel {
+        max-width: 40%;
+    }    
 }
 
