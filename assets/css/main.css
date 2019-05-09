@@ -143,6 +143,18 @@ footer .row {
     color: #e80815;
 }
 
+/*------------------------------ Media page*/
+/*------------------------------ Carousel*/
+.carouselContainer {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
 /*------------------------------ media queries*/
 /*Using bootstrap breakpoints (576, 768, 992, 1200)*/
 @media (min-width: 576px) {  
