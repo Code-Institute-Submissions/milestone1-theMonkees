@@ -23,6 +23,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 2vh;
+    padding-top: 4vh;
 }
 
 /*------------------------------ navbar*/
@@ -149,6 +150,7 @@ footer .row {
 .carousel {
     max-width: 70%;
     margin: auto;
+    padding-bottom: 4vh;
 }
 
 .audioImage {
@@ -158,6 +160,8 @@ footer .row {
 /*------------------------------ audio section*/
 .mp3Player {
     margin-top: 2vh;
+    margin-bottom: 4vh;
+    width: 70%;
 }
 
 /*------------------------------ media queries*/
@@ -175,7 +179,7 @@ footer .row {
     .navbar-brand {
         max-width: 25%;
     }
-    .imageSectionHeader {
+    .standardSectionHeader {
         font-size: 3.5rem;
     }
     .memberNames {
@@ -212,6 +216,10 @@ footer .row {
         font-size: 3rem;
     }
     .sectionAboutPage {
+        width:80%;
+        margin:auto;
+    }
+    .carouselSection {
         width:80%;
         margin:auto;
     }
