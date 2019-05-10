@@ -1,13 +1,12 @@
-ToDO:
 
-Hover effects on buttons landing page
-Navbar layout when not collapsed
 
 solved background picture layout with Anna_lead. 
 
 navbar code taken from bootstrap video
 
 Videocode from other student
+
+When I started Bootstrap 4 was not being used yet, the last weeks it had become the staple and a lot of lessons were rewritten. I did not have time to review everything so I learned Bootstrap 4 on-the-fly. I ended up using a lot of it, but I might not be aware of certain componenents/classes that could be better used.
 
 I wanted to make a website that has the 60s feel of the band while still being a modern-style site. In my first attempt I was trying to be original but it ended up being quite 'oldschool' as my mentor put it, one of the main culprits was using scrollable div's as main text bodies. After thinking it through  I decides to go back to square one and completely redesign. The old site is still on github at:
 
@@ -24,7 +23,12 @@ in the end I used git rebase interactive to remove the file. After everything wa
 
 Using an aspect ratio media query for better carousel size.
 
+Remaining bugs:
+*The video will not display when loaded in safari, when played it displays correctly.
 All images, videos and sound files were provided by the Code Institute.
+
+*On the About page, the description text blocks of the bandmembers: To be able to have a toggleable block of text, I need to have specific css code to the 4 id's (toggleText01, 02,03,04) to set them as display: block. I set that in a media query (min 768px).
+Putting said display rule in as class as part of the paragraph will not display the text on wide viewscreens. I have not been able to figure out why, it's ugly code, but the only way I could find how to do it.
 
 
 
