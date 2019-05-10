@@ -30,7 +30,6 @@
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
     margin-bottom: 2vh;
     padding-top: 2vh;
 }
@@ -39,7 +38,7 @@
     color: #521a1a;
     font-weight: bold;
     font-size: 1.2rem;
-    display: block;    
+    display: block;  
 }
 
 /*------------------------------ navbar*/
@@ -87,7 +86,6 @@
     font-family: 'Galada', cursive, sans-serif;
     color: #fafafa;
     font-size: 2rem;
-    text-align: right;
 }
 
 /*------------------------------ landing page - member images and names*/
@@ -101,7 +99,6 @@
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
-    text-align: center;   
 }
 
 /*------------------------------ landing page - video*/
@@ -125,12 +122,7 @@
 }
 
 .descBandmember {
-    /*color: #521a1a;*/
-    /*font-weight: bold;*/
-    /*font-size: 1.2rem;*/
-    /*display: block;*/
     margin:4vh auto 4vh auto;
-    text-align: center;
 }
 
 /*------------------------------ Footer*/
