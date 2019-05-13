@@ -255,5 +255,8 @@ footer .row {
    .carousel {
         max-width: 35%;
     }    
+    .videoSection {
+        width: 70%;
+    }
 }
 
