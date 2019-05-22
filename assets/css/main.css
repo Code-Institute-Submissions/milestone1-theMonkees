@@ -41,6 +41,10 @@
     display: block;  
 }
 
+.headerShadow {
+    text-shadow: 1.5px 1.5px #6b6c6d;
+}
+
 /*------------------------------ navbar*/
 .navbar-brand {
     max-width: 40%;
