@@ -25,6 +25,8 @@ media query based on aspect ratio for carousel and video. Would not fit in scree
 
 Using an aspect ratio media query for better carousel size.
 
+learned from Anna Greaves that README files is not in past tense usually, but since I have been doing it for so long I will keep it for the current project. 
+
 Remaining bugs:
 *The video will not display when loaded in safari, when played it displays correctly.
 
