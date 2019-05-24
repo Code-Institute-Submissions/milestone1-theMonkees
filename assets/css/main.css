@@ -55,7 +55,6 @@
 .navbar-brand {
     max-width: 40%;
     margin-right: 5vw;
-    margin-bottom: 3vw;
 }
 
 .navbar img {
@@ -140,7 +139,6 @@
 /*------------------------------ Footer*/
 footer {
     background-color: #dfa87f;
-    /*margin-top: 3vh;*/
     height: 10vh;
 }
 
@@ -159,7 +157,7 @@ footer .row {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out; 
-    margin: 1vw;
+    margin: 0 3vw 0 3vw;
 }
 
 .socialIcons a i:hover {
@@ -256,6 +254,7 @@ footer .row {
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 3rem;
+        margin-right: 5vw;
     }
     .sectionAboutPage {
         width:80%;
