@@ -5,6 +5,8 @@ navbar code taken from bootstrap video
 Form based of mini-project-cv
 
 Videocode from other student
+Used https://www.youtube.com/watch?v=kEf1xSwX5D8 for the code for the favicon
+Favicon image from https://icons8.com/
 
 When I started Bootstrap 4 was not being used yet, the last weeks it had become the staple and a lot of lessons were rewritten. I did not have time to review everything so I learned Bootstrap 4 on-the-fly. I ended up using a lot of it, but I might not be aware of certain componenents/classes that could be better used.
 
