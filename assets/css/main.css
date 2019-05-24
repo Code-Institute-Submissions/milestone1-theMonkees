@@ -45,6 +45,12 @@
     text-shadow: 1.5px 1.5px #6b6c6d;
 }
 
+.boxShadow {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
 /*------------------------------ navbar*/
 .navbar-brand {
     max-width: 40%;
@@ -72,7 +78,7 @@
 /*------------------------------ landing page - general*/
 .landingPageButton {
     margin-top:4vh;
-    margin-bottom:4vh;
+    margin-bottom:2vh;
     background-color: #a6c099;
     border-color: transparent;
 }
@@ -96,13 +102,15 @@
 .alignPicture {
     width: 100%;
     height: auto;
-    padding: 2vw;
+    /*margin: 2vw 2vw 2vw 2vw;*/
 }
 
 .memberNames {
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 /*------------------------------ landing page - video*/
