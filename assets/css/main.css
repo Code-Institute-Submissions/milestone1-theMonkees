@@ -136,6 +136,44 @@
     margin:4vh auto 4vh auto;
 }
 
+/*------------------------------ Media page*/
+/*------------------------------ Carousel section*/
+.carouselSection {
+    padding-top: 2vh;
+}
+
+.carousel {
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 4vh;
+}
+
+/*------------------------------ Audio section*/
+.audioImage {
+    width: 60%;
+    height: auto;
+    margin-top: 2vh;
+}
+
+.mp3Player {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    width: 70%;
+}
+
+/*------------------------------ Hire us page*/
+.center-form {
+    width: 90%;
+    margin: auto;
+}
+
+.formSubmitButton {
+    background-color: #a6c099;
+    border-color: transparent;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
 /*------------------------------ Footer*/
 footer {
     background-color: #dfa87f;
@@ -162,42 +200,6 @@ footer .row {
 
 .socialIcons a i:hover {
     color: #e80815;
-}
-
-/*------------------------------ Media page*/
-/*------------------------------ Carousel section*/
-.carouselSection {
-    padding-top: 2vh;
-}
-
-.carousel {
-    max-width: 70%;
-    margin: auto;
-    padding-bottom: 4vh;
-}
-
-.audioImage {
-    width: 60%;
-    height: auto;
-}
-/*------------------------------ Audio section*/
-.mp3Player {
-    margin-top: 2vh;
-    margin-bottom: 4vh;
-    width: 70%;
-}
-
-/*------------------------------ Hire us page*/
-.center-form {
-    width: 90%;
-    margin: auto;
-}
-
-.formSubmitButton {
-    background-color: #a6c099;
-    border-color: transparent;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
 }
 
 /*------------------------------ media queries*/
