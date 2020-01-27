@@ -29,6 +29,56 @@ Using an aspect ratio media query for better carousel size.
 
 learned from Anna Greaves that README files is not in past tense usually, but since I have been doing it for so long I will keep it for the current project. 
 
+
+This site is for educational purposes only etc.
+
+
+Testing:
+For testing purposes I used the following resolutions (both in portrait and landscape) from chrome's developer tools on a windows 10 PC:
+- Iphone X (375x812), this is a very narrow phone which presented some layout challenges.
+- Ipad (768x1024), one of the most common devices
+- Laptop with HiDPi screen (1440x900), to test laptop screens
+- Fullscreen (2560x1440), my personal settings for Fullscreen
+
+Also on the following devices:
+- Galaxy A5 (2017)
+- Ipad Air (2015)
+
+This way most often used screensizes can be tested. For all of the above the following has been tested.
+
+Navigation bar (all pages):
+- Layout throughout the pages. No misplaced/misaligned text or image is present in any of the tested resolutions.
+- All (hyper)links  are functioning properly. Including the 'Guitar' logo as a home-link.
+- Hamburger menu appears and disappears at relevant breakpoints.
+- Hamburger menu collapsing/expanded correctly, all links active.
+
+Footer bar (all pages):
+- All links to social media/spotify functioning properly.
+- Footer on very small phone viewports is very thin (eg. IphoneX), making the footer social icons a bit small. For purposes of this site it is acceptable (spacing is sufficient to support touch).
+
+
+Landing page/Home page.
+- All hyperlinks functioning properly
+- All images and video (and text/buttons) scaling, postioning and reacting properly to all viewports/devices.
+- Video plays correctly, including sound.
+- The video will not display when loaded in the Safari Browser on the Ipad Air, when played it displays correctly.
+
+About page
+- All images and text scaling, postioning and reacting properly to all viewports/devices.
+- On small viewports (eg. phones), text correctly expands/collapses at 'about' button press.
+
+Media page
+- All images, musicplayers and text scaling, postioning and reacting properly to all viewports/devices.
+- Carousel aligned properly, slideshow is activating and manual previous/next slide arrows are functioning.
+- All 4 musicplayers are playing sound correctly
+- Download links in the players are working and downloading
+
+Hire us! - page
+- The Contactform detects empty fields and prompts the user for text. (Mandatory fields are Name and email, other fields may stay empty. )
+- The contactform detects emailadresses not following basic format <text>@<text>
+- Only able to fill out characters that are relevant for a phonenumber in the field phonenumber.
+- 
+
 Remaining bugs:
 *The video will not display when loaded in safari, when played it displays correctly.
 
@@ -36,6 +86,3 @@ Remaining bugs:
 *On the About page, the description text blocks of the bandmembers: To be able to have a toggleable block of text, I need to have specific css code to the 4 id's (toggleText01, 02,03,04) to set them as display: block. I set that in a media query (min 768px).
 Putting said display rule in as class as part of the paragraph will not display the text on wide viewscreens. I have not been able to figure out why, it's ugly code, but the only way I could find how to do it.
 
-*Footer on very small phone viewports is very thin, making the footer social icons a bit too small.
-
-This site is for educational purposes only etc.
