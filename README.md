@@ -162,6 +162,7 @@ When using gitpod, the site can also be previewed by typing 'python3 -m http.ser
 * The implementation of the embedded video was adapted from https://github.com/ananyasitlani/milestone-project
 * Structure of features in README.md was copied from https://github.com/ananyasitlani/milestone-project
 * Navbar code taken and adapted from a brilliant YouTube video of Academind, https://www.youtube.com/watch?v=23bpce-5s8I&t=616s
+* With the above Navbar collapse code, in combination with Alligator (https://alligator.io/css/collapsible/), I designed the collapsable divs on the about page.
 * The contactform is largely based off the CodeInstitute's Mini-project-cv
 * Used video https://www.youtube.com/watch?v=kEf1xSwX5D8 for the code for the favicon
 
