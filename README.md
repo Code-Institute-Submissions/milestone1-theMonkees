@@ -1,21 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-*** Validation!
-
-
-*****************************************************************************
-**************************  START OFFICIAL README  **************************
-*****************************************************************************
-
-*DISCLAIMER:* This site is for educational purposes only, there is no affiliation or connection to the real Monkees and their brand/trademarks and should not be viewed nor used as such.
+*DISCLAIMER:* This project is for educational purposes only, there is no affiliation or connection to the real Monkees and their brand/trademarks and should not be viewed nor used as such.
 
 # The good old Monkees!
 A sixties themed website with the power of modern technology. A place where anyone can find out more about this incredible band! This site is meant to inspire and invite people to enjoy some of the content created by the Monkees. Anyone will be able to easily find out more about the bandmembers and even contact them for a possible future gig. The whole site has been themed so it's a fullon 60s experience, but not so much that it gets overwhelming.
