@@ -10,11 +10,7 @@ Favicon image from https://icons8.com/
 
 When I started Bootstrap 4 was not being used yet, the last weeks it had become the staple and a lot of lessons were rewritten. I did not have time to review everything so I learned Bootstrap 4 on-the-fly. I ended up using a lot of it, but I might not be aware of certain componenents/classes that could be better used.
 
-With the new setup in mind I wanted to have the bright colors as I had them before, based off of the main picture on the landing page. Using an eyedropper I combined the colors of the image with a color calculator to get the right contrast with the background blue color I picked ('#c8e3ee'). The color calculator is at https://www.sessions.edu/color-calculator/
 
-Parts with a lot of content (mediagallery/musicfiles, bandmember descriptions, form) I put in seperate pages, reachable through a navbar. This to avoind clutter on the landing page. I wanted, however, to put some teasers on the landing page which could also lead to the other pages. So I decided to have the bandmembers present on the landing page, and I also put the video there.
-
-For the nav menu I used the colour of the logo that has been added as the brand. This ensured that the navbar really stood out.
 
 On wide viewports, added margin left and right. Having the picture stretch the view-width fully was overwhelming.
 
@@ -42,9 +38,9 @@ Testing:
 **************************  START OFFICIAL README  **************************
 *****************************************************************************
 
-DISCLAIMER: This site is for educational purposes only, there is no affiliation or connection to the real Monkees and their brand/trademarks and should not be viewed nor used as such.
+*DISCLAIMER:* This site is for educational purposes only, there is no affiliation or connection to the real Monkees and their brand/trademarks and should not be viewed nor used as such.
 
-The good old Monkees!
+# The good old Monkees!
 
 A sixties themed website with the power of modern technology. A place where anyone can find out more about this incredible band! This site is meant to inspire and invite people to enjoy some of the content created by the Monkees. Anyone will be able to easily find out more about the bandmembers and even contact them for a possible future gig. The whole site has been themed so it's a fullon 60s experience, but not so much that it gets overwhelming.
 
@@ -52,7 +48,7 @@ When first opening the site, one is met with a full on image of the legendary Mo
 Lastly a way to contact the band has been created on the hire us! page.
 
 
-******** UX **************
+## UX **************
 
 This project will meet the demands of the band 'The Monkees!', the band needs a place where people can see and hear their music, find out more about them and the means to contact or hire them. It is a band that plays music from the 60's. The relevant audience will be looking for a place that represents this decade since the band was and still is well known for that time period. Current and potential fans of the band will be from all ages and culture, although there will be an emphasis on 40+ ages and a western background. A responsive website will be very suitable for this audience and its needs, especially since all kinds of devices will be used to search for and enjoy the band's content (due to the large range of user age). It should look great on mobile phones up to widescreen monitors.
 
@@ -60,37 +56,39 @@ It will be a B2C audience mostly, so it needs to focus on emotional triggers. It
 To add to clarity, it should be obvious there are a lot of media files present and there is a way to contact and/or hire the band. 
 Overall, due to the intense colouring and abundance of images, it is important not to overload the site. If possible, walls of text should be avoided, especially on smaller viewports. Only when a user wants to read up, there should be a seperate and dedicated place to do so (on small viewports).
 
+With this setup in mind the site will have bright colors, based off of the main (hero) picture on the landing page. By using an eyedropper the colors can be extracted from the image and with a color calculator the right contrast colours with the background blue color ('#c8e3ee') can be created. The color calculator is at https://www.sessions.edu/color-calculator/.
+For the navigation menu I used the colour of the logo that has been added as the brand. This ensured that the navbar really stood out.
+
 The site will focus on the following users:
 
 - Fans
 - Potential employer (who wants to hire the band)
 - Potential fan
 
-User stories
-*Fan:
+**User stories**
+* Fan:
     * As a fan I want to see images of the band(members).
     * As a fan I want to listen to music of the bandAs a fan I want to see videos of the band.
     * As a fan I want to be able to go to social media pages of the band.
     * As a fan I want to be able to go to the spotify page of the band.
 
-*Potential fan, applies to user stories of a fan, added to that the following:
+* Potential fan, applies to user stories of a fan, added to that the following:
+    * As a potential fan I want to be able to get a look and feel for the band.
+    * As a potential fan I want to find out more about the bandmembers.
 
-As a potential fan I want to be able to get a look and feel for the band.
-As a potential fan I want to find out more about the bandmembers.
+* Potential employer, the above stories apply but also:
+    * As a potential employer I want a way to contact the band.
+    * As a potential employer I want a way to hire the band.
 
-Potential employer, the above stories apply but also:
-As a potential employer I want a way to contact the band.
-As a potential employer I want a way to hire the band.
+**Mockups**
 
-Mockups:
-I have drawn up the mockups in Balsamiq, the PDF with the images can be found in the project file structure at ./mockups/mockupsmilestone01.pdf or by clicking [here](https://aeb4fe8b-09ee-40ee-9a68-fd9005e24a75.ws-eu01.gitpod.io/files/download/?id=1141201c-82fa-43ca-8495-afb3a698a3d6)
+I have drawn up wireframe mockups in Balsamiq, the PDF with the images can be found in two places:
 
+* Within the project file structure at ./mockups/mockupsmilestone01.pdf
+* By clicking [here](https://github.com/codewouter/milestone1-theMonkees/blob/e99fb4fcf34ac7f5e0c9ddaf211a423f6b3557fa/mockups/mockupsmilestone01.pdf)
 
+Please note that the first three balsamiq images are the landing page (home), info page (in the final product called 'about') and media page for the mobile layout, the second set of three are for desktop/wide screens.
 
-first 3 balsamiq images are the landing (home), info (in the final product called 'about') and media pages for the mobile layout, the second set are for desktop/wide screens.
-
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ******** Features ***********
 
