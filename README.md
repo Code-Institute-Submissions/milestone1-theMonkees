@@ -67,13 +67,13 @@ The site will focus on the following users:
 - Potential fan
 
 User stories
-Fan:
-As a fan I want to see images of the band(members).
-As a fan I want to listen to music of the bandAs a fan I want to see videos of the band.
-As a fan I want to be able to go to social media pages of the band.
-As a fan I want to be able to go to the spotify page of the band.
+*Fan:
+    * As a fan I want to see images of the band(members).
+    * As a fan I want to listen to music of the bandAs a fan I want to see videos of the band.
+    * As a fan I want to be able to go to social media pages of the band.
+    * As a fan I want to be able to go to the spotify page of the band.
 
-Potential fan, applies to user stories of a fan, added to that the following:
+*Potential fan, applies to user stories of a fan, added to that the following:
 
 As a potential fan I want to be able to get a look and feel for the band.
 As a potential fan I want to find out more about the bandmembers.
