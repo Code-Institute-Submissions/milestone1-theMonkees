@@ -31,6 +31,10 @@ learned from Anna Greaves that README files are not in past tense usually, but s
 
 
 This site is for educational purposes only etc.
+Mockups:
+
+Can be found here: <link>
+note: first 3 balsamiq images are the landing (home), info (in the final product called 'about') and media pages for the mobile layout, the second set are for desktop/wide screens.
 
 
 Testing:
