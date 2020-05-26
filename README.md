@@ -10,15 +10,13 @@ Favicon image from https://icons8.com/
 
 When I started Bootstrap 4 was not being used yet, the last weeks it had become the staple and a lot of lessons were rewritten. I did not have time to review everything so I learned Bootstrap 4 on-the-fly. I ended up using a lot of it, but I might not be aware of certain componenents/classes that could be better used.
 
-I wanted to make a website that has the 60s feel of the band while still being a modern-style site. In my first attempt I was trying to be original but it ended up being quite 'oldschool' as my mentor put it, one of the main culprits was using scrollable div's as main text bodies. After thinking it through  I decides to go back to square one and completely redesign. The old site is still on github at:
-
 With the new setup in mind I wanted to have the bright colors as I had them before, based off of the main picture on the landing page. Using an eyedropper I combined the colors of the image with a color calculator to get the right contrast with the background blue color I picked ('#c8e3ee'). The color calculator is at https://www.sessions.edu/color-calculator/
 
 Parts with a lot of content (mediagallery/musicfiles, bandmember descriptions, form) I put in seperate pages, reachable through a navbar. This to avoind clutter on the landing page. I wanted, however, to put some teasers on the landing page which could also lead to the other pages. So I decided to have the bandmembers present on the landing page, and I also put the video there.
 
 For the nav menu I used the colour of the logo that has been added as the brand. This ensured that the navbar really stood out.
 
-On wide viewports, added margin left and right. Having the picture stretch the view-width completely was overwhelming.
+On wide viewports, added margin left and right. Having the picture stretch the view-width fully was overwhelming.
 
 On may 3rd I ran into a problem with git push. It refused to push my repository because of a file was too big. The file concerned was the videofile. I removed a few seconds from the start because the start of the video was black, and so the videoplayer displayed a black screen on the landing page. Using MS Video Creator I had not noticed that the file got bloated from 16mb to 160mb. I did several commits since then. The challenge was to remove said file from the git history. After a few long sessions on slack I turned to youtube to learn more about git, 
 in the end I used git rebase interactive to remove the file. After everything was pushed I re-added the correct file. I removed a lot of commits which were just attempts to push without anything relevant changed, I did leave the relevant history intact so the process can be seen in the git commit history.
@@ -36,8 +34,86 @@ Mockups:
 Can be found here: <link>
 note: first 3 balsamiq images are the landing (home), info (in the final product called 'about') and media pages for the mobile layout, the second set are for desktop/wide screens.
 
+*** Validation!
 
 Testing:
+
+*****************************************************************************
+**************************  START OFFICIAL README  **************************
+*****************************************************************************
+
+DISCLAIMER: This site is for educational purposes only, there is no affiliation or connection to the real Monkees and their brand/trademarks and should not be viewed nor used as such.
+
+The good old Monkees!
+
+A sixties themed website with the power of modern technology. A place where anyone can find out more about this incredible band! This site is meant to inspire and invite people to enjoy some of the content created by the Monkees. Anyone will be able to easily find out more about the bandmembers and even contact them for a possible future gig. The whole site has been themed so it's a fullon 60s experience, but not so much that it gets overwhelming.
+
+When first opening the site, one is met with a full on image of the legendary Monkees, below that a quick view of the individuals and links to their info. Below that a video can be viewed and listened to, to get a taste of their work. A second page has been created to read more about the bandmembers. Wide open on large screens, but small on phones, with an option to expand information about the specific bandmember. The site would not be complete with some samples of the Monkees, so on the media page a caroussel with pictures and a few songs are accessable.
+Lastly a way to contact the band has been created on the hire us! page.
+
+
+******** UX **************
+
+This project will meet the demands of the band 'The Monkees!', the band needs a place where people can see and hear their music, find out more about them and the means to contact or hire them. It is a band that plays music from the 60's. The relevant audience will be looking for a place that represents this decade since the band was and still is well known for that time period. Current and potential fans of the band will be from all ages and culture, although there will be an emphasis on 40+ ages and a western background. A responsive website will be very suitable for this audience and its needs, especially since all kinds of devices will be used to search for and enjoy the band's content (due to the large range of user age). It should look great on mobile phones up to widescreen monitors.
+
+It will be a B2C audience mostly, so it needs to focus on emotional triggers. It needs to be abundantly clear it is a site of the Monkees, it all has to do with the 60s, maybe 70s and it's about music and/or a band. The landing page needs to make this very obvious. So the name, a big image of the band and 60s colouring is needed.
+To add to clarity, it should be obvious there are a lot of media files present and there is a way to contact and/or hire the band. 
+Overall, due to the intense colouring and abundance of images, it is important not to overload the site. If possible, walls of text should be avoided, especially on smaller viewports. Only when a user wants to read up, there should be a seperate and dedicated place to do so (on small viewports).
+
+The site will focus on the following users:
+
+- Fans
+- Potential employer (who wants to hire the band)
+- Potential fan
+
+User stories
+Fan:
+As a fan I want to see images of the band(members).
+As a fan I want to listen to music of the bandAs a fan I want to see videos of the band.
+As a fan I want to be able to go to social media pages of the band.
+As a fan I want to be able to go to the spotify page of the band.
+
+Potential fan, applies to user stories of a fan, added to that the following:
+
+As a potential fan I want to be able to get a look and feel for the band.
+As a potential fan I want to find out more about the bandmembers.
+
+Potential employer, the above stories apply but also:
+As a potential employer I want a way to contact the band.
+As a potential employer I want a way to hire the band.
+
+Mockups:
+I have drawn up the mockups in Balsamiq, the PDF with the images can be found in the project file structure at ./mockups/mockupsmilestone01.pdf or by clicking [here](https://aeb4fe8b-09ee-40ee-9a68-fd9005e24a75.ws-eu01.gitpod.io/files/download/?id=1141201c-82fa-43ca-8495-afb3a698a3d6)
+
+
+
+first 3 balsamiq images are the landing (home), info (in the final product called 'about') and media pages for the mobile layout, the second set are for desktop/wide screens.
+
+
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+******** Features ***********
+
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+Existing Features
+Feature 1 - allows users X to achieve Y, by having them fill out Z
+...
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+Features Left to Implement
+Another feature idea
+
+******** Technologies Used *********
+
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+JQuery
+The project uses JQuery to simplify DOM manipulation.
+
+******** Testing **************
 For testing purposes I used the following resolutions (both in portrait and landscape) from chrome's developer tools on a windows 10 PC:
 - Iphone X (375x812), this is a very narrow phone which presented some layout challenges.
 - Ipad (768x1024), one of the most common devices
@@ -59,7 +135,6 @@ Navigation bar (all pages):
 Footer bar (all pages):
 - All links to social media/spotify functioning properly.
 - Footer on very small phone viewports is very thin (eg. IphoneX), making the footer social icons a bit small. For purposes of this site it is acceptable (spacing is sufficient to support touch).
-
 
 Landing page/Home page.
 - All hyperlinks functioning properly
@@ -89,56 +164,6 @@ Remaining bugs:
 
 *On the About page, the description text blocks of the bandmembers: To be able to have a toggleable block of text, I need to have specific css code to the 4 id's (toggleText01, 02,03,04) to set them as display: block. I set that in a media query (min 768px).
 Putting said display rule in as class as part of the paragraph will not display the text on wide viewscreens. I have not been able to figure out why, it's ugly code, but the only way I could find how to do it.
-
-
------------template-----------------------------
-Your Project's Name
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
-
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
