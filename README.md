@@ -32,7 +32,6 @@ note: first 3 balsamiq images are the landing (home), info (in the final product
 
 *** Validation!
 
-Testing:
 
 *****************************************************************************
 **************************  START OFFICIAL README  **************************
@@ -48,7 +47,7 @@ When first opening the site, one is met with a full on image of the legendary Mo
 Lastly a way to contact the band has been created on the hire us! page.
 
 
-## UX **************
+## UX
 
 This project will meet the demands of the band 'The Monkees!', the band needs a place where people can see and hear their music, find out more about them and the means to contact or hire them. It is a band that plays music from the 60's. The relevant audience will be looking for a place that represents this decade since the band was and still is well known for that time period. Current and potential fans of the band will be from all ages and culture, although there will be an emphasis on 40+ ages and a western background. A responsive website will be very suitable for this audience and its needs, especially since all kinds of devices will be used to search for and enjoy the band's content (due to the large range of user age). It should look great on mobile phones up to widescreen monitors.
 
@@ -56,8 +55,7 @@ It will be a B2C audience mostly, so it needs to focus on emotional triggers. It
 To add to clarity, it should be obvious there are a lot of media files present and there is a way to contact and/or hire the band. 
 Overall, due to the intense colouring and abundance of images, it is important not to overload the site. If possible, walls of text should be avoided, especially on smaller viewports. Only when a user wants to read up, there should be a seperate and dedicated place to do so (on small viewports).
 
-With this setup in mind the site will have bright colors, based off of the main (hero) picture on the landing page. By using an eyedropper the colors can be extracted from the image and with a color calculator the right contrast colours with the background blue color ('#c8e3ee') can be created. The color calculator is at https://www.sessions.edu/color-calculator/.
-For the navigation menu I used the colour of the logo that has been added as the brand. This ensured that the navbar really stood out.
+With this setup in mind the site will have bright colors, based off of the main (hero) picture on the landing page. By using an eyedropper the colors can be extracted from the image and with a color calculator the right contrast colours with the background blue color ('#c8e3ee') can be created. For the navigation menu the colour of the logo(brand) was used. This ensured that the navbar really stood out.
 
 The site will focus on the following users:
 
@@ -65,7 +63,7 @@ The site will focus on the following users:
 - Potential employer (who wants to hire the band)
 - Potential fan
 
-**User stories**
+#### User stories
 * Fan:
     * As a fan I want to see images of the band(members).
     * As a fan I want to listen to music of the bandAs a fan I want to see videos of the band.
@@ -80,8 +78,7 @@ The site will focus on the following users:
     * As a potential employer I want a way to contact the band.
     * As a potential employer I want a way to hire the band.
 
-**Mockups**
-
+#### Mockups
 I have drawn up wireframe mockups in Balsamiq, the PDF with the images can be found in two places:
 
 * Within the project file structure at ./mockups/mockupsmilestone01.pdf
@@ -89,27 +86,48 @@ I have drawn up wireframe mockups in Balsamiq, the PDF with the images can be fo
 
 Please note that the first three balsamiq images are the landing page (home), info page (in the final product called 'about') and media page for the mobile layout, the second set of three are for desktop/wide screens.
 
+## Features
 
-******** Features ***********
+#### General
+* A navbar that is instantly recognized for wide viewports. For phones and the like scaled down to a hamburger menu.
+* Clear icons at the bottom (footer) to social media pages and spotify on every page so they can be easily visited.
+* All sections on all pages seperated by a light bar, consistent through all pages.
+* Box shadows on all images and large text headers. Except on the hero image which looked better without.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#### index.html
+* Hero image right at loading the landing page to instantly make clear what the site is about, combined with the big brand top left.
+* Bandmembers with pictures and names to create curiosity or recognition effect. Button to go directly to the about page for more info.
+* Playable video to entice viewers to start listening right away. Also a button to go directly to more media content.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#### about.html
+* Description and pictures of all bandmembers for more background info. On phones the text is hidden until a button is pressed and the field opens up, collapsing again when pressed again. **!Note from student: Kind of the highlight of the site for me, because I was hellbent on getting it to work without Javascript, and finally succeeded :) )**
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#### media.html
+* Caroussel with various images. Automatically sliding, and buttons to manually speed up the rotation.
+* Four songs with the relevant album art. Playable and searchable within the song.
 
-Features Left to Implement
-Another feature idea
+#### hireus.html
+* Contactform to contact the band and hire them. Several features in place to prevent wrong information. Only numbers in the phone field, valid emailadress structure, no empty fields 
 
-******** Technologies Used *********
+## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+* HTML 
+    * General markup
+* CSS
+    * Styling HTML
+* Bootstrap 4 (https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+    * Obligatory because the course was largely centered around it. When I started, Bootstrap 4 was not being used yet, later it had become the staple and a lot of lessons were rewritten. I did not have time to review everything so I learned Bootstrap 4 on-the-fly. I ended up using a lot of it, but I might not be aware of certain componenents/classes that could be better used.
+* Font Awesome (https://fontawesome.com/)
+    * Used for several icons, fonts and the favicon.
+* Google fonts (https://fonts.google.com/)
+    * Used for several fonts
+* Box shadow generator (https://www.cssmatic.com/box-shadow)
+    * To create a feeling of depth on the site. 
+* Validators
+    * Validation of the HTML code: https://validator.w3.org/
+    * Validation of CSS code: https://jigsaw.w3.org/css-validator/
+* Color calculator (https://www.sessions.edu/color-calculator/)
+    * To determine the right colors for the site in contrast to the blue background.
 
 ******** Testing **************
 For testing purposes I used the following resolutions (both in portrait and landscape) from chrome's developer tools on a windows 10 PC:
@@ -154,8 +172,9 @@ Hire us! - page
 - The Contactform detects empty fields and prompts the user for text. (Mandatory fields are Name and email, other fields may stay empty. )
 - The contactform detects emailadresses not following basic format <text>@<text>
 - Only able to fill out characters that are relevant for a phonenumber in the field phonenumber.
-- 
 
+
+### Bugs/Problems Encountered
 Remaining bugs:
 *The video will not display when loaded in safari, when played it displays correctly.
 
@@ -177,6 +196,8 @@ Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
+Monkees logo: https://www.pngguru.com/search?png=Monkee
+Structure of features in README.md -> https://github.com/ananyasitlani/milestone-project
 The photos used in this site were obtained from ...
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from Ananyasitlani -> https://github.com/ananyasitlani/milestone-project (supplied by antonia)
