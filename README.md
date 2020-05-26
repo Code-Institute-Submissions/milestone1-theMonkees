@@ -8,7 +8,7 @@ Lastly a way to contact the band has been created on the hire us! page.
 
 
 ## UX
-This project will meet the demands of the band 'The Monkees!', the band needs a place where people can see and hear their music, find out more about them and the means to contact or hire them. It is a band that plays music from the 60's. The relevant audience will be looking for a place that represents this decade since the band was and still is well known for that time period. Current and potential fans of the band will be from all ages and culture, although there will be an emphasis on 40+ ages and a western background. A responsive website will be very suitable for this audience and its needs, especially since all kinds of devices will be used to search for and enjoy the band's content (due to the large range of user age). It should look great on mobile phones up to widescreen monitors.
+This project will meet the demands of the band 'The Monkees!', the band needs a place where people can see and hear their music, find out more about them and the means to contact or hire them. It is a band that plays music from the 60's. The relevant audience will be looking for a place that represents this decade since the band was and still is well known for that time period. Current and potential fans of the band will be from all ages and culture, although there will be an emphasis on 40+ ages and a western background. A responsive website will be very suitable for this audience and its needs, especially since all kindgits of devices will be used to search for and enjoy the band's content (due to the large range of user age). It should look great on mobile phones up to widescreen monitors.
 
 It will be a B2C audience mostly, so it needs to focus on emotional triggers. It needs to be abundantly clear it is a site of the Monkees, it all has to do with the 60s, maybe 70s and it's about music and/or a band. The landing page needs to make this very obvious. So the name, a big image of the band and 60s colouring is needed.
 To add to clarity, it should be obvious there are a lot of media files present and there is a way to contact and/or hire the band. 
@@ -148,7 +148,7 @@ Deployement has been an ongoing process of lots of pushed commits to github. The
 When using gitpod, the site can also be previewed by typing 'python3 -m http.server' in the terminal window and selecting 'make public' in the popup window. Then the option 'Open Preview' should be clicked.
 
 ## Credits
-####Content
+#### Content
 * All images, video and music files were supplied by Code Institute as part of the assignment, except:
     * Monkees logo: https://www.pngguru.com/search?png=Monkee
     * Favicon image from https://icons8.com/
