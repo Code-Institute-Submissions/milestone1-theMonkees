@@ -1,9 +1,4 @@
 
-navbar code taken from bootstrap video
-Form based of mini-project-cv
-
-Videocode from other student
-Used https://www.youtube.com/watch?v=kEf1xSwX5D8 for the code for the favicon
 
 
 
@@ -11,14 +6,7 @@ Used https://www.youtube.com/watch?v=kEf1xSwX5D8 for the code for the favicon
 
 
 
-learned from Anna Greaves that README files are not in past tense usually, but since I have been doing it for so long I will keep it for the current project. 
 
-
-This site is for educational purposes only etc.
-Mockups:
-
-Can be found here: <link>
-note: first 3 balsamiq images are the landing (home), info (in the final product called 'about') and media pages for the mobile layout, the second set are for desktop/wide screens.
 
 *** Validation!
 
@@ -30,7 +18,6 @@ note: first 3 balsamiq images are the landing (home), info (in the final product
 *DISCLAIMER:* This site is for educational purposes only, there is no affiliation or connection to the real Monkees and their brand/trademarks and should not be viewed nor used as such.
 
 # The good old Monkees!
-
 A sixties themed website with the power of modern technology. A place where anyone can find out more about this incredible band! This site is meant to inspire and invite people to enjoy some of the content created by the Monkees. Anyone will be able to easily find out more about the bandmembers and even contact them for a possible future gig. The whole site has been themed so it's a fullon 60s experience, but not so much that it gets overwhelming.
 
 When first opening the site, one is met with a full on image of the legendary Monkees, below that a quick view of the individuals and links to their info. Below that a video can be viewed and listened to, to get a taste of their work. A second page has been created to read more about the bandmembers. Wide open on large screens, but small on phones, with an option to expand information about the specific bandmember. The site would not be complete with some samples of the Monkees, so on the media page a caroussel with pictures and a few songs are accessable.
@@ -38,7 +25,6 @@ Lastly a way to contact the band has been created on the hire us! page.
 
 
 ## UX
-
 This project will meet the demands of the band 'The Monkees!', the band needs a place where people can see and hear their music, find out more about them and the means to contact or hire them. It is a band that plays music from the 60's. The relevant audience will be looking for a place that represents this decade since the band was and still is well known for that time period. Current and potential fans of the band will be from all ages and culture, although there will be an emphasis on 40+ ages and a western background. A responsive website will be very suitable for this audience and its needs, especially since all kinds of devices will be used to search for and enjoy the band's content (due to the large range of user age). It should look great on mobile phones up to widescreen monitors.
 
 It will be a B2C audience mostly, so it needs to focus on emotional triggers. It needs to be abundantly clear it is a site of the Monkees, it all has to do with the 60s, maybe 70s and it's about music and/or a band. The landing page needs to make this very obvious. So the name, a big image of the band and 60s colouring is needed.
@@ -100,12 +86,11 @@ Please note that the first three balsamiq images are the landing page (home), in
 * Contactform to contact the band and hire them. Several features in place to prevent wrong information. Only numbers in the phone field, valid emailadress structure, no empty fields 
 
 ## Technologies Used
-
 * HTML 
     * General markup
 * CSS
     * Styling HTML
-* Bootstrap 4 (https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* Bootstrap 3 and 4 (https://getbootstrap.com/docs/4.0/getting-started/introduction/)
     * Obligatory because the course was largely centered around it. When I started, Bootstrap 4 was not being used yet, later it had become the staple and a lot of lessons were rewritten. I did not have time to review everything so I learned Bootstrap 4 on-the-fly. I ended up using a lot of it, but I might not be aware of certain componenents/classes that could be better used.
 * Font Awesome (https://fontawesome.com/)
     * Used for several icons and fonts.
@@ -118,7 +103,8 @@ Please note that the first three balsamiq images are the landing page (home), in
     * Validation of CSS code: https://jigsaw.w3.org/css-validator/
 * Color calculator (https://www.sessions.edu/color-calculator/)
     * To determine the right colors for the site in contrast to the blue background.
-* Favicon image from https://icons8.com/
+* Balsamiq (https://balsamiq.com/)
+    * used to create the mockups.
 
 ## Testing
 For testing purposes I used the following resolutions (both in portrait and landscape) from chrome's developer tools on a windows 10 PC:
@@ -167,25 +153,38 @@ Hire us! - page
 
 ### Bugs/Problems Encountered
 * The video on the landing page will not display when loaded in safari, when played it displays correctly.
+
 * On may 3rd I ran into a problem with git push. It refused to push my repository because of a file was too big. The file concerned was the videofile. I removed a few seconds from the start because the start of the video was black, and so the videoplayer displayed a black screen on the landing page. Using MS Video Creator I had not noticed that the file got bloated from 16mb to 160mb. I did several commits since then. The challenge was to remove said file from the git history. After a few long sessions on slack I turned to youtube to learn more about git. In the end I used git rebase interactive to remove the file. After everything was pushed I re-added the correct file. I removed a lot of commits which were just attempts to push without anything relevant changed, I did leave the relevant history intact so the process can be seen in the git commit history.
+
 * On the About page, the description text blocks of the bandmembers: To be able to have a toggleable block of text, I need to have specific css code linked to the 4 id's (toggleText01, 02,03,04) to set them as display: block. I set that in a media query (min 768px). Putting said display rule in as class as part of the paragraph will not display the text on wide viewscreens. I have not been able to figure out why, it's ugly code, but the only way I could find how to do it.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## Deployment
+This project has been deployed through github, it is freely accessable by visiting my repository [here](https://github.com/codewouter/milestone1-theMonkees). One can find the code there and a link to the live [website](https://codewouter.github.io/milestone1-theMonkees/).
+Deployement has been an ongoing process of lots of pushed commits to github. The final product has been deployement off the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+When using gitpod, the site can also be previewed by typing 'python3 -m http.server' in the terminal window and selecting 'make public' in the popup window. Then the option 'Open Preview' should be clicked.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+## Credits
+####Content
+* All images, video and music files were supplied by Code Institute as part of the assignment, except:
+    * Monkees logo: https://www.pngguru.com/search?png=Monkee
+    * Favicon image from https://icons8.com/
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-Monkees logo: https://www.pngguru.com/search?png=Monkee
-Structure of features in README.md -> https://github.com/ananyasitlani/milestone-project
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from Ananyasitlani -> https://github.com/ananyasitlani/milestone-project (supplied by antonia)
+* The text on the about page was copied from the wikipedia pages of the relevant bandmember.
+    * https://en.wikipedia.org/wiki/Peter_Tork
+    * https://en.wikipedia.org/wiki/Micky_Dolenz
+    * https://en.wikipedia.org/wiki/Michael_Nesmith
+    * https://en.wikipedia.org/wiki/Davy_Jones_(musician)
+
+* The implementation of the embedded video was adapted from https://github.com/ananyasitlani/milestone-project
+* Structure of features in README.md was copied from https://github.com/ananyasitlani/milestone-project
+* Navbar code taken and adapted from a brilliant YouTube video of Academind, https://www.youtube.com/watch?v=23bpce-5s8I&t=616s
+* The contactform is largely based off the CodeInstitute's Mini-project-cv
+* Used video https://www.youtube.com/watch?v=kEf1xSwX5D8 for the code for the favicon
+
+
+#### Acknowledgements
+* I would like to thank the slack community as a whole and especially Anna Greaves and Simen Daehlin for helping me out so much.
+* Many thanks to my first mentor Antonija Simic for shooting down my first attempt, harsh but needed.
+* I received inspiration for this project from Ananyasitlani (https://github.com/ananyasitlani/milestone-project). This example project was supplied te me by my first mentor Antonija Simic.
+* Thanks to my new mentor Gerard McBride for a kick in the procrastination and pointing out the project is good, stop adding to it and finish up already!
